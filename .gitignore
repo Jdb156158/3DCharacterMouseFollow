@@ -1,0 +1,15 @@
+._*
+.DS_Store
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.xcarchive
+*.xcresult
+*.xcuserstate
+xcuserdata/
+
+# Generated visual QA captures stay local; keep the written report and helper.
+qa/*
+!qa/qa-report.md
+!qa/make-visual-comparison.swift
